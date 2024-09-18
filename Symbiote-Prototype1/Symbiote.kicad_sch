@@ -4484,6 +4484,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 284.48) (xy 157.48 284.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27c8b88b-f4b7-4e88-bdb0-2c5a811ec0f9")
+	)
+	(wire
+		(pts
 			(xy 590.55 66.04) (xy 590.55 81.28)
 		)
 		(stroke
@@ -4591,6 +4601,16 @@
 			(type default)
 		)
 		(uuid "3a399629-e3da-485e-871f-b12be364bdbb")
+	)
+	(wire
+		(pts
+			(xy 137.16 281.94) (xy 157.48 281.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f1cd373-92bd-4d8a-85a1-154643dcc8e7")
 	)
 	(wire
 		(pts
@@ -5204,6 +5224,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 259.08) (xy 157.48 259.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3d3aed7-44c9-408a-91a7-f8b98e7c8c9a")
+	)
+	(wire
+		(pts
 			(xy 387.35 186.69) (xy 393.7 186.69)
 		)
 		(stroke
@@ -5251,6 +5281,16 @@
 			(type default)
 		)
 		(uuid "cface5e6-2949-4e71-b048-c0cdd99c27f6")
+	)
+	(wire
+		(pts
+			(xy 190.5 304.8) (xy 218.44 304.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1764984-06db-4618-9bd5-fd1747c2f2a0")
 	)
 	(wire
 		(pts
@@ -5453,6 +5493,28 @@
 		)
 		(uuid "13014b37-275a-4848-80cc-8f5b60bb3b28")
 	)
+	(label "MOSI3"
+		(at 137.16 284.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1be12cca-5141-4d78-b10f-5ae86a113e1c")
+	)
+	(label "MISO3"
+		(at 137.16 281.94 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "204e8422-e1ea-4b50-8b70-7964cc805564")
+	)
 	(label "SCL"
 		(at 321.31 97.79 0)
 		(fields_autoplaced yes)
@@ -5464,7 +5526,7 @@
 		)
 		(uuid "24d9872b-cb6e-481c-9aad-a8b4298f2cb7")
 	)
-	(label "MOSI"
+	(label "MOSI2"
 		(at 330.2 219.71 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5552,7 +5614,7 @@
 		)
 		(uuid "6fbd3d62-7e2f-47e5-9943-6f426b094f93")
 	)
-	(label "MISO"
+	(label "MISO2"
 		(at 387.35 191.77 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5585,7 +5647,7 @@
 		)
 		(uuid "82b949e8-2d0f-4ab0-b92f-51e97e0d79b7")
 	)
-	(label "MOSI"
+	(label "MOSI3"
 		(at 328.93 341.63 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5684,7 +5746,7 @@
 		)
 		(uuid "c5701667-4d44-4e45-88ec-aa45a2dd0c99")
 	)
-	(label "MISO"
+	(label "MISO3"
 		(at 387.35 313.69 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5694,6 +5756,17 @@
 			(justify left bottom)
 		)
 		(uuid "dd7074e4-806e-481f-a0f2-7beb42df893d")
+	)
+	(label "MISO2"
+		(at 135.89 259.08 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "eddf3563-f4f9-4955-bf24-5594b32826ca")
 	)
 	(label "DRDY3"
 		(at 218.44 251.46 0)
@@ -5705,6 +5778,17 @@
 			(justify left bottom)
 		)
 		(uuid "ef51cefb-9d92-48d8-b6b1-0f01f8e6c381")
+	)
+	(label "MOSI2"
+		(at 218.44 304.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "efadf2a8-ced2-46b0-a50c-dc557adaf2e0")
 	)
 	(symbol
 		(lib_id "Switch:SW_DIP_x01")
